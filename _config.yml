@@ -1,0 +1,20 @@
+# Site settings
+name: My Blog
+email: 719880851@qq.com
+author: lingzi
+github: https://github.com/LingziFeng777
+baseurl: "/blog"
+motto: 
+
+#permalink: /:categories/:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: LingziFeng777
+
+# Build settings
+markdown: kramdown
+
